@@ -45,7 +45,7 @@ tuple(y)
 a=(23,6,7,38,9,2)
 b=sorted(a)
 print("max",b[-1],"min",b[0])
-STRINGS
+#STRINGS
 #ques_1.
 a=input("enter the string\n")
 print(a.upper())
