@@ -1,0 +1,9 @@
+{% extends "indi.html"%}
+{% block content %}
+<ul>
+{% for i in range (0,23)%}
+<li>
+<a href="/quiz01/{{i}}">{{c[i]}}</a></li>
+{% endfor %}
+</ul>
+{% endblock %}

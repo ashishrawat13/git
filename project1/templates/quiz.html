@@ -1,0 +1,17 @@
+{% extends "indi.html"%}
+{% block content %}
+<form  action="/result" method="POST">
+<ol>
+{% for s in range(0,10) %}
+<li>{{sp[s]}}</li>
+        <p>
+        <input type="radio" name="{{s}}"  value="{{ot[s][0]}}">{{ot[s][0]}}</input><br>
+        <input type="radio" name="{{s}}"  value="{{ot[s][1]}}">{{ot[s][1]}}</input><br>
+        <input type="radio" name="{{s}}"  value="{{ot[s][2]}}">{{ot[s][2]}}</input><br>
+        <input type="radio" name="{{s}}"  value="{{ot[s][3]}}">{{ot[s][3]}}</input><br>
+        </p>
+{% endfor %}
+</ol>
+<input class="btn btn-primary" type="submit">
+</form>
+{% endblock %}

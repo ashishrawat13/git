@@ -1,0 +1,78 @@
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: rgb(18, 141, 22);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    text-align: center;
+    width: 100%;
+    border-radius: 20%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+.login-popup-heading>h4 {
+    color: #258b47;
+    font-size: 18px;
+    line-height: 30px;
+}
+.new_reg_popup, .new_login_popup {
+    border-radius: 2px;
+    min-height: 332px;
+    width: 500px;
+    margin: 0px auto;
+}
+.login-popup-btn {
+    background: #258b47;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    height: 38px;
+    line-height: 28px;
+    margin: 20px auto 5px;
+    width: 150px;
+    -webkit-transition: all 700ms ease;
+    -moz-transition: all 700ms ease;
+    -ms-transition: all 700ms ease;
+    -o-transition: all 700ms ease;
+}
+a{
+     color: #258b47;
+     font-size: 18px;
+}
+
+</style>

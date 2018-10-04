@@ -1,0 +1,16 @@
+{% extends "index.html"%}
+{% block content %}
+        <div class="jumbotron">
+                <h2>SIGN UP</h2>
+                <form action="" method="POST">
+                    <div class="image">
+                        <img src={{url_for('static',filename="download.png")}} alt="cannot load the image" class="img">
+                        </div>
+                        <div class="container">
+                            <label for="uname"><b>Username</b></label>
+                            <input type="text" placeholder="Enter Username" name="username" required>
+                            <label for="psw"><b>Password</b></label>
+                            <input type="password" placeholder="Enter Password" name="pass" required>
+                            <button type="submit">Submit</button>
+                    </div>
+{% endblock %}
